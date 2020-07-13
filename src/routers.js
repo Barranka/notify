@@ -11,12 +11,12 @@ import NotFound from '@/pages/404'
 
 //Routering
 export default new Router({
-	// mode: 'history',
+	mode: 'history',
 	routes: [
 		{
 			path: '/',
 			name: 'notify',
-			component: Home	
+			component: Home
 		},
 		{
 			path: '*',
